@@ -4,7 +4,7 @@ import mysql.connector
 from sendmail import mailcuowu
 
 class MysqlHelper:
-    def __init__(self,host='localhost',port='3306',db='school_info',user='root',passwd='xucaihou',charset='utf8'):
+    def __init__(self,host='localhost',port='3306',db='school_info',user='root',passwd='*******',charset='utf8'):
         self.host = host
         self.port = port
         self.db = db
