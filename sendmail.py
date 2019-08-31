@@ -10,9 +10,9 @@ import time
 
 smtpserver = 'smtp.163.com'
 username = 'massage_swjtu@163.com'
-password = 'x2511903043'
+password = '******'
 sender = 'massage_swjtu@163.com'
-receiver = ['message<massage_swjtu@163.com>','houhou<2511903043@qq.com>','zhaoyue<3152666087@qq.com>','xujingwei<1724854636@qq.com>','xuyuming<805336427@qq.com>','weixiapeng<1099366657@qq.com>']
+receiver = ['****@163.com']
 subject = Header('学校发送新通知啦！', 'utf-8').encode()
 
 msg = MIMEMultipart('mixed')
